@@ -1,0 +1,9 @@
+
+
+Here the abstraction for our P2P messaging application:
+-  will be running over HTTP/1.1; conditional requests.
+-  no data storage. Each communication session will record the key files in one random user.
+  *  The keys will be created and deleted in every session. the prior keys' header will be stored in each prior host for later sessions
+  *  The prior keys (first keys) will be created in manual
+  *  For new participants, keys will be created manually.
+  *  For key header encryption, SHA256 will be used.
